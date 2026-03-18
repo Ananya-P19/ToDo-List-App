@@ -14,6 +14,18 @@
             <button id="addTodoBtn">Add</button>
         </div>
         <ul id="todoList"></ul>
+        <div id="listsContainer"></div>
+        <div class="attachment-wrapper">
+            <button id="fabBtn" class="fab-btn">+</button>
+            <div id="attachmentMenu" class="attachment-menu hidden">
+                <button onclick="createNewList('🖼️ Gallery')">🖼️ Gallery</button>
+                <button onclick="createNewList('📄 Docs')">📄 Docs</button>
+                <button onclick="createNewList('🎙️ Audio')">🎙️ Audio</button>
+                <button onclick="createNewList('🎨 Draw')">🎨 Draw</button>
+                <button onclick="createNewList('✅ New List')">✅ New List</button>
+                <button id="closeMenu" class="close-btn">Close</button>
+            </div>
+        </div>
         <div id="statusBar" class="status-bar">0 items remaining</div>
     </div>
     <script src="script.js"></script>
