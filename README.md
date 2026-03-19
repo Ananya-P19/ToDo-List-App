@@ -3,7 +3,7 @@
 A sophisticated, vanilla JavaScript task manager that supports multiple categorized lists, device-level notifications, and persistent data storage. This project demonstrates advanced DOM manipulation and a modular code structure.
 
 ## 🚀 Live Demo
-[Insert your GitHub Pages link here]
+[🚀 View Live Demo](https://ananya-p19.github.io/ToDo-List-App/)
 
 ## ✨ Key Features
 * **Modular List System:** Create multiple independent task cards (e.g., Work, Personal, Groceries) with their own title bars.
